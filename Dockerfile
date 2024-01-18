@@ -1,7 +1,7 @@
 FROM metabase/metabase:v0.48.2 as build
 
 
-FROM amazoncorretto:21.0.1
+FROM amazoncorretto:21.0.2
 
 COPY --from=build /app /app
 
