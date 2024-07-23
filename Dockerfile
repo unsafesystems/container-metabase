@@ -1,4 +1,4 @@
-FROM metabase/metabase:v0.49.13 as build
+FROM metabase/metabase:v0.50.14 as build
 
 
 FROM amazoncorretto:21.0.3
